@@ -1,0 +1,290 @@
+/********** nav *********/
+
+
+.navbar {
+  background: black!important;
+  height: 70px;
+}
+
+.navbar img {
+  max-width: 130px;
+  margin-bottom: 5px;
+
+}
+
+.nav {
+  margin-left: 40%;
+  margin-top: 10px;
+}
+.nav-link {
+	color: white!important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	border-left: 1px solid #495057;
+}
+
+.nav-link:hover {
+	color: #6FD9C2 !important;
+}
+
+/*** search ***/
+
+.btn {
+	border: 0.5px solid #495057!important;
+	border-radius: 0rem!important;
+	padding: .53rem .75rem!important;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+.btn:hover {
+	background-color: #6FD9C2!important;
+}
+.form-control {
+	margin-right: 0rem!important;
+	border-radius: 0rem!important
+}
+
+input { 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.8em!important;
+	max-width: 200px;
+ }
+
+
+
+/** dropdown **/
+
+.dropdown .btn {
+	background-color: black!important;
+	border: 1px solid black!important;
+	border-left: 1px solid #495057!important;
+
+}
+
+.dropdown .btn:active {
+	border: none!important;
+
+}
+
+
+.dropdown-item {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+
+.dropdown-item:hover {
+	background-color: #6FD9C2!important;
+}
+
+/********** header  ************/
+
+.container-fluid {
+	background: url(../images/bg.jpg);
+	background-position: center;
+	height: 60vh;
+	width: 100%;
+	border-bottom: 6px solid black;
+	position: relative;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 900px;
+	position: absolute;
+	bottom: 0;
+	background-color: black!important;
+	opacity: 0.9;
+	margin: 0 auto;
+	padding: 10px;
+	margin-left: 20px;
+
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 0.8em;
+	color: white;
+
+
+}
+
+.head {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: white;
+
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+	color: white;
+}
+
+#uno {
+	width: 130px;
+	padding: 5px;
+	background-color: #000;
+	border: 1px solid #495057;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 35%;
+	margin-left: 15%;
+
+}
+
+/********** content *************/ 
+
+#dos {margin-left: 40px;}
+
+.cont {
+	padding-top: 25px;
+	font-size: 1.2em;
+	font-weight: 400;
+	padding: 5px;
+
+}
+
+.cont2 {
+	font-weight: 400;
+	font-size: 1em;
+	padding: 5px;
+}
+
+#book {
+	background-color: #EAF5ED!important;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+	color: black;
+	margin-top: 10px;
+}
+
+label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+.bcon {
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	padding: 10px;
+	margin-top: 20px;
+
+}
+
+.bcon:hover {
+	background-color: #6FD9C2 ;
+}
+
+.nav-fill {
+	margin-top: 15px;
+	}
+
+.nav-two {
+	list-style-type: none;
+	background-color: #EAF5ED;
+	padding: 5px;
+	text-align: center;
+	color: black;
+}
+
+.nav-button {
+	padding: 5px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.nav-button:hover {
+	background-color: #000;
+	color: white;
+
+}
+.nav-two:hover {
+ 	background-color: #000;
+ 	color: white;
+ }
+
+/*** student work ***/
+
+section {
+	margin: 50px;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.7em;
+	font-weight: 600;
+	padding:  5px 0px;
+}
+
+.bconn {
+	margin-left: 15px;
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	border: none;
+	padding: 10px;
+	margin-top: 20px;
+
+}
+
+.bconn:hover {
+	background-color: #6FD9C2 ;
+}
+
+ /********* footer **********/
+
+footer {
+	width: 100%;
+	background: black;
+	margin: 0 auto;
+	margin-top: 3%;
+	display: inline-block;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+
+#foot {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 0.7em;
+	color: white;
+	padding: 10px;
+}
+
