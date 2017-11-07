@@ -139,7 +139,7 @@
     <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     <h2 id='result'></h2>
     <label for="exampleFormControlInput1">Phone</label>
-    <input type="number" min="1000000000" max="9999999999" name="phone" class="form-control" id="phone" placeholder="8090000000">
+    <input type="text" maxlength="10" runat="server" onkeypress="return AcceptNumericOnly(event, false);"  class="form-control" id="phone" placeholder="0000000000">
   </div>
 
 	 <button class="bcon" type="submit" value="Submit" onclick="validate" onclick="validateEmail">Send me information</button>

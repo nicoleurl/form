@@ -1,37 +1,4 @@
-/*function validateForm() {
-    var x = document.forms["formgroup"]["name"].value;
-    if (x == "") {
-        alert("All fields must be filled out");
-        return false;
-    }
 
-   }
-
-   function validateEmail() {
-    var x = document.forms["formgroup"]["email"].value;
-    if (x == "") {
-        alert("All fields must be filled out");
-        return false;
-    }
-
-   }
-
-
-function myFunction() {
-    var txt = "";
-    if (document.getElementById("id1").validity.rangeUnderflow) {
-       txt = "Value too small";
-    } 
-    if (document.getElementById("id1").validity.rangeOverflow) {
-       txt = "Value too large";
-    }
-    
-    document.getElementById("demo").innerHTML = txt;
-}*/
-
-
-
-// Form validation code will come here.
       function validate()
       {
       
@@ -53,7 +20,7 @@ function myFunction() {
          isNaN( document.formgroup.phone.value ) ||
          document.formgroup.phone.length != 10 )
          {
-            alert( "Please provide a zip in the format 9999999999." );
+            alert( "Please provide a 10 digit phone number" );
             document.formgroup.phone.focus() ;
             return false;
          }
@@ -74,3 +41,17 @@ function validateEmail()
          }
          return( true );
       }
+
+function AcceptNumericOnly(event, allowPeriod) 
+{
+    var keyCode = event.which ? event.which : event.keyCode;    
+    
+    if( (keyCode >= 48 && keyCode <= 57) ||         //lets allow only numerics 
+        ((allowPeriod == true) && (keyCode == 46))  //allow period conditionally based on the control's choice
+      )
+    {
+        return true;
+    }   
+    
+    return false;
+};
