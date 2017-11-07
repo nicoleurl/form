@@ -16,14 +16,7 @@
             return false;
          }
          
-         if( document.formgroup.phone.value == "" ||
-         isNaN( document.formgroup.phone.value ) ||
-         document.formgroup.phone.length != 10 )
-         {
-            alert( "Please provide a 10 digit phone number" );
-            document.formgroup.phone.focus() ;
-            return false;
-         }
+        
  return( true );
 }
 
